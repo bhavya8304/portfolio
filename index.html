@@ -1,0 +1,236 @@
+Index.html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Website</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link href="./style.css" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <!-- Navigation-bar -->
+    <section id="nav-bar">
+        <nav class="navbar navbar-expand-lg bg-body-tertiary fixed top-0 w-[100%] z-10">
+            <div class="container-fluid">
+              <a class="font-bold text-[2rem]" href="#">Bhavya pratap singh</a>
+              
+              <div class="" id="navbarNav">
+                <ul class="flex justify-between gap-6 mr-5 align-center items-center">
+                  <li class="">
+                    <a class="" aria-current="page" href="#Hero">Intro</a>
+                  </li>
+                  <li class="">
+                    <a class="" href="#view">View</a>
+                  </li>
+                  <li class="">
+                    <a class="" href="#resume">Resume</a>
+                  </li>
+                  <li class="">
+                    <a class="" href="#projects">Projects</a>
+                  </li>
+                  <li class="">
+                    <a class="" href="#About-Me">About Me</a>
+                  </li>
+                  <li class="font-bold border-2 border-black text-white  px-4 py-2 rounded-md bg-black">
+                    <button type="button" class="">
+                        <a class="" href="#Contact-Me">
+                            Contact Me
+                        </a>
+                    </button>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+        <!-- <nav class="myNav">
+            <ul>
+                <li><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-person-circle" viewBox="0 0 16 16">
+                    <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0z"/>
+                    <path fill-rule="evenodd" d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1z"/>
+                  </svg>
+                </li>
+                <li><a href="#Hero">Intro</a></li>
+                <li><a href="#view">View</a></li>
+                <li><a href="#resume">Resume</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#About-Me">About Me</a></li>
+                <li><a href="#Contact-Me">Contact Me</a></li>
+            </ul>
+        </nav> -->
+    </section>
+
+    <!-- Hero Section-Intro -->
+    <section id="Hero">
+        <div class="container">
+            <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+                <div class="col-10 col-sm-8 col-lg-6">
+                  <img src="./image/bhavya.png" class="image d-block mx-lg-auto img-fluid border border-secondary rounded" alt="Bootstrap Themes" height="100" loading="lazy">
+                </div>
+                <div class="col-lg-6 mx-auto">
+                  <h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-3">Bhavya pratap singh</h1>
+                  <p class="lead">"Currently in my third year in Data Science. I really enjoy working with Python, MySQL, and machine learning/artificial intelligence. In my spare time I like to stay up-to-date on the newest trends in the tech industry."</p>
+                  <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+                    <button type="button" class="btn btn-dark px-4 me-md-2"><a href="#Contact-Me" class="text-black">Contact Me</a></button>
+                    <button type="button" class="btn btn-outline-secondary btn-lg px-4">About Me</button>
+                  </div>
+                </div>
+              </div>
+            </div>   
+    </section>
+
+
+    <!-- View  -->
+    <section id="view">
+        <div class="container-2">
+        <div class="row g-4 py-5 row-cols-1 row-cols-lg-3 text-center">
+            <div class="feature col">
+              <div class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3 bg-dark">
+                <svg xmlns="http://www.w3.org/2000/svg" height="30px" fill="currentColor" class="bi bi-file-earmark-person" viewBox="0 0 16 16">
+                    <path d="M11 8a3 3 0 1 1-6 0 3 3 0 0 1 6 0z"/>
+                    <path d="M14 14V4.5L9.5 0H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2zM9.5 3A1.5 1.5 0 0 0 11 4.5h2v9.255S12 12 8 12s-5 1.755-5 1.755V2a1 1 0 0 1 1-1h5.5v2z"/>
+                  </svg>
+              </div>
+              <h3 class="fs-2 text-body-emphasis">Resume</h3>
+              <p class="my-4">Skilled Data Scientist  Proficient in Python and MySQL.</p>
+              <a href="#resume" class="text-bg-dark px-3 py-2 mt-2">
+                Resume
+              </a>
+            </div>
+            <div class="feature col">
+              <div class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3 bg-dark">
+                <svg xmlns="http://www.w3.org/2000/svg" height="30px" fill="currentColor" class="bi bi-bag" viewBox="0 0 16 16">
+                    <path d="M8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1zm3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4h-3.5zM2 5h12v9a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V5z"/>
+                  </svg>
+              </div>
+              <h3 class="fs-2 text-body-emphasis">Projects</h3>
+              <p class="my-3">All about my work.</p>
+              <a href="#projects" class="icon-link text-bg-dark px-3 py-2">
+                Projects
+              </a>
+            </div>
+            <div class="feature col">
+              <div class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3 bg-dark">
+                <svg xmlns="http://www.w3.org/2000/svg" height="30px" fill="currentColor" class="bi bi-file-earmark-person-fill" viewBox="0 0 16 16">
+                    <path d="M9.293 0H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2V4.707A1 1 0 0 0 13.707 4L10 .293A1 1 0 0 0 9.293 0zM9.5 3.5v-2l3 3h-2a1 1 0 0 1-1-1zM11 8a3 3 0 1 1-6 0 3 3 0 0 1 6 0zm2 5.755V14a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1v-.245S4 12 8 12s5 1.755 5 1.755z"/>
+                  </svg>
+              </div>
+              <h3 class="fs-2 text-body-emphasis">About Me</h3>
+              <p class="my-3">Get to know my other interest and hobbies.</p>
+              <a href="#About-Me" class="icon-link text-bg-dark px-3 py-2">
+                About Me
+              </a>
+            </div>
+            
+          </div>
+        </div>
+    </section>
+
+
+    <!-- Resume  -->
+    <section id="resume">
+        <div class="container-3">
+        <div class="left card">
+            <div class="content">
+                <h2 class="font-bold text-[2rem] text-center">Bhavya pratap singh</h2>
+                <p class="text-center">"As a dedicated data scientist, I am passionate about uncovering insights, solving complex problems, and making data-driven decisions. With a strong foundation in statistical analysis, machine learning, and data visualization, I have spent 2 years honing my skills and applying them to a wide range of real-world challenges."</p>
+            </div>
+           
+        </div>
+        <div class="right card">
+            <div class="box text-center">
+                <h3 class="font-bold text-[1.5rem]">Education</h3>
+                <ul>
+                    <li>Bachelor's in Data Science,</br>
+                         Manipal University Jaipur (2021-2025)</li>
+                    <li>High School Diploma, </br>
+                        St Anselms North City (2008-2020)</li>
+                </ul>
+            </div>
+            <div class="box text-center">
+                <h3 class="font-bold text-[1.5rem]">Skills</h3>
+                <ul>
+                    <li>Video Editing</li>
+                    <li>Python</li>
+                    <li>C++</li>
+                    <li>MySQL</li>
+                    <li>Machine Learning</li>
+                </ul>
+            </div>
+            <div class="box text-center">
+                <h3 class="font-bold text-[1.5rem]">Certificates</h3>
+                <ul>
+                    <li>ACM Ideathon,2022- 3rd position</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    </section>
+
+
+    <!-- Projects -->
+    <section id="projects" class="mt-[10rem] text-center">
+        <h1 class="font-bold text-[2rem]">Projects</h1>
+       <ul class="flex flex-col mt-3 gap-6">
+        <li  class="font-bold text-[1.4rem]">
+            <a href="">Instagram UI</a>
+        </li>
+        <li class="font-bold text-[1.4rem]">
+            <a href="">Diabetes Prediction</a>
+        </li>
+        <li class="font-bold text-[1.4rem]">
+            <a href="">Web Scrapping</a>
+        </li>
+       </ul>
+    </section>
+
+
+    <!-- About Me  -->
+    <section id="About-Me">
+      
+    </section>
+
+
+    <!-- Contact Me  -->
+    <section id="Contact-Me">
+
+        <form class="mt-[7rem] p-4 p-md-5 border rounded-3 bg-body-tertiary">
+            <h2>CONTACT ME</h2>
+            <div class="form-floating mb-3">
+                <input type="name" class="form-control" id="floatingPassword" placeholder="Name">
+                <label for="floatingPassword">Name</label>
+              </div>
+            <div class="form-floating mb-3">
+              <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+              <label for="floatingInput">Email address</label>
+            </div>
+          
+            
+            <button class="w-100 btn btn-dark btn-primary text-black" type="submit">Submit</button>
+            <hr class="my-4">
+            <small class="text-body-secondary">By clicking Submit, you agree to the terms of use.</small>
+          </form>
+
+    </section>
+
+    <!-- Footer -->
+    <section id="footer">
+        <footer class="py-3 my-4">
+            <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+              <li class="nav-item"><a href="#Hero" class="nav-link px-2 text-body-secondary">Hero</a></li>
+              <li class="nav-item"><a href="#resume" class="nav-link px-2 text-body-secondary">Resume</a></li>
+              <li class="nav-item"><a href="#projects" class="nav-link px-2 text-body-secondary">Projects</a></li>
+              <li class="nav-item"><a href="#Contact-Me" class="nav-link px-2 text-body-secondary">Contact Me</a></li>
+              
+            </ul>
+            <p class="text-center text-body-secondary">© 2023 Bhavya</p>
+          </footer>
+    </section>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+
+</body>
+</html>
